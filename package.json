@@ -1,0 +1,12 @@
+{
+  "name": "allot-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jon Stuebe",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "^1.7.2",
+    "serverless-postgres": "^1.0.0",
+    "sql-template-strings": "^2.2.2"
+  }
+}

@@ -1,0 +1,15 @@
+postgres:
+  image: postgres:13-alpine
+  ports:
+    - "7218:5432"
+  volumes_from:
+    - pgdata
+  environment:
+    POSTGRES_USER: db
+    POSTGRES_PASSWORD: db
+    POSTGRES_DB: db
+
+pgdata:
+  image: busybox
+  volumes:
+    - /data
